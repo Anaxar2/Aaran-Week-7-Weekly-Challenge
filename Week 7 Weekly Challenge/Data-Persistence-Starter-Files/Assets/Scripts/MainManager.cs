@@ -37,6 +37,10 @@ public class MainManager : MonoBehaviour
             }
         }
     }
+    public void Awake()
+    {
+        LoadName();
+    }
 
     private void Update()
     {
